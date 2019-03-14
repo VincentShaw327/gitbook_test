@@ -1,7 +1,7 @@
 # Summary
 
 * [前言](README.md)
+* [前端历史发展浅谈](chapter1/02.md)
+* [React版本变化](chapter1/01.md)
 * [React技术栈](chapter1.md)
-  * [React版本变化](chapter1/01.md)
-  * [02](chapter1/02.md)
 
