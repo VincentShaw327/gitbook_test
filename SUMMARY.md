@@ -10,4 +10,6 @@
 * [前端历史发展浅谈](chapter1/02.md)
 * [React版本变化](chapter1/01.md)
 * [React技术栈](chapter1.md)
+* Git命令
+  * [分支与合并](fen-zhi-yu-he-bing.md)
 
