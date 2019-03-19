@@ -8,8 +8,10 @@
   * 表单
   * 样式
 * [前端历史发展浅谈](chapter1/02.md)
-* [React版本变化](chapter1/01.md)
 * [React技术栈](chapter1.md)
+  * [React版本变化](chapter1/01.md)
+  * [路由Route](chapter1/lu-you-route.md)
+  * [redux](chapter1/redux.md)
 * Git命令
   * [分支与合并](fen-zhi-yu-he-bing.md)
 
