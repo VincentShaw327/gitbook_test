@@ -1,5 +1,3 @@
-
-
 ### 查看分支
 
 * git branch     ——列出所有本地分支
@@ -17,19 +15,11 @@
 * git branch  \[-v  \[--abbrev=&lt;length&gt; \| &lt;--no-abbrev&gt; \]  ——显示与上游commit的相关信息\(哈希值、注释等\) abbrev表示哈希值长度
 * git branch  \[--sort=&lt;key&gt;\]  ——根据给定的key排序
 
-
-
-
-
 git branch    \[--track \| --no-track\]   \[ -f \]  &lt;branchname&gt;   \[&lt;start-point&gt;\]
 
 git branch  \( --set-upstream-to=&lt;upstream&gt; \| -u &lt;upstream&gt; \)  \[&lt;branchname&gt;\]
 
-
-
 git branch  --unset-upstream \[&lt;branchname&gt;\]
-
-
 
 git branch  \(-m \| -M\) \[&lt;oldbranch&gt;\] &lt;newbranch&gt;
 
@@ -37,19 +27,5 @@ git branch  \(-c \| -C\) \[&lt;oldbranch&gt;\] &lt;newbranch&gt;
 
 git branch  \(-d \| -D\) \[-r\]  &lt;branchname&gt;…​
 
-
-
-git branch
-
- --edit-description \[
-
-&lt;
-
-branchname
-
-&gt;
-
-\]
-
-
+git branch --edit-description \[&lt;branchname&gt;\]
 
