@@ -1,4 +1,4 @@
-### 查看分支
+## 查看分支
 
 * git branch     ——列出所有本地分支
 * git branch --list      ——同上
@@ -15,17 +15,42 @@
 * git branch  \[-v  \[--abbrev=&lt;length&gt; \| &lt;--no-abbrev&gt; \]  ——显示与上游commit的相关信息\(哈希值、注释等\) abbrev表示哈希值长度
 * git branch  \[--sort=&lt;key&gt;\]  ——根据给定的key排序
 
-git branch    \[--track \| --no-track\]   \[ -f \]  &lt;branchname&gt;   \[&lt;start-point&gt;\]
+## 创建分支
 
-git branch  \( --set-upstream-to=&lt;upstream&gt; \| -u &lt;upstream&gt; \)  \[&lt;branchname&gt;\]
+* git branch    \[--track \| --no-track\]   \[ -f \]  &lt;branchname&gt;   \[&lt;start-point&gt;\]
 
-git branch  --unset-upstream \[&lt;branchname&gt;\]
+## 分支操作
 
-git branch  \(-m \| -M\) \[&lt;oldbranch&gt;\] &lt;newbranch&gt;
+* git branch  \( --set-upstream-to=&lt;upstream&gt; \| -u &lt;upstream&gt; \)  \[&lt;branchname&gt;\]
+* git branch  --unset-upstream \[&lt;branchname&gt;\]    ——移除分支上游
+* git branch  \(-m \| -M\) \[&lt;oldbranch&gt;\] &lt;newbranch&gt;     ——分支重命名
+* git branch  \(-c \| -C\) \[&lt;oldbranch&gt;\] &lt;newbranch&gt;      ——分支复制
+* git branch  \(-d \| -D\) \[-r\]  &lt;branchname&gt;…​    ——删除分支
+* git branch --edit-description \[&lt;branchname&gt;\]   
 
-git branch  \(-c \| -C\) \[&lt;oldbranch&gt;\] &lt;newbranch&gt;
+## 
 
-git branch  \(-d \| -D\) \[-r\]  &lt;branchname&gt;…​
+## 分支合并
 
-git branch --edit-description \[&lt;branchname&gt;\]
+git merge \[-n\] \[--stat\] \[--no-commit\] \[--squash\] \[--\[no-\]edit\]
+
+	\[-s &lt;strategy&gt;\] \[-X &lt;strategy-option&gt;\] \[-S\[&lt;keyid&gt;\]\]
+
+	\[--\[no-\]allow-unrelated-histories\]
+
+	\[--\[no-\]rerere-autoupdate\] \[-m &lt;msg&gt;\] \[-F &lt;file&gt;\] \[&lt;commit&gt;…​\]
+
+git merge --abort
+
+git merge --continue
+
+
+
+## 分支合并工具
+
+git mergetool \[--tool=&lt;tool&gt;\] \[-y \| --\[no-\]prompt\] \[&lt;file&gt;…​\]
+
+
+
+
 
